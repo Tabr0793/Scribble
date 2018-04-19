@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-us" class="dash-html">
+
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <title>Scribble | Dashboard</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,400,700|Roboto+Slab:300,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran|Raleway" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/stylec.css">
+  <link rel="stylesheet" href="css/dropit.css">
+
+
+
+
+</head>
+
+<body class="dashboard">
+
+  <!-- NAVBAR -->
+
+<!--               <ul>
+                <li><a href="#"><i class="fa fa-th"></i>All items</a></li>
+                <li><a href="#"><i class="fa fa-pencil"></i>Notes</a></li>
+                <li><a href="#"><i class="fa fa-check"></i>Checklists</a></li>
+                <li><a href="#"><i class="fa fa-image"></i>Images</a></li>
+                <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+              </ul> -->
+
+<!-- LEFT NAV  -->
+
+  <nav>
+    <section class="left-nav">
+      <div class="side-nav">
+
+          <div class="side-menu">
+            <h4>ITEMS</h4>
+            <ul>
+                <li><a href="#"><i class="fa fa-th"></i>All items</a></li>
+                <li><a href="#"><i class="fa fa-pencil"></i>Notes</a></li>
+                <li><a href="#"><i class="fa fa-check"></i>Checklists</a></li>
+                <li><a href="#"><i class="fa fa-image"></i>Images</a></li>
+                <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+            </ul>
+          </div>
+
+          <div class="side-menu">
+            <h4>BOXES</h4>
+            <ul>
+                <li><a href="#"><i class="fa fa-th"></i>All boxes</a></li>
+                <li><a href="#"><img src="images/logo.png">Inspiration</a></li>
+                <li><a href="#"><img src="images/logo.png">Work ideas</a></li>
+            </ul>
+          </div>
+
+          <div class="side-menu">
+            <h4>ORGANIZE</h4>
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i>Favorites</a></li>
+                <li><a href="#"><i class="fa fa-tag"></i>Tags</a></li>
+                <li><a href="#"><i class="fa fa-users"></i>Collaborators</a></li>
+            </ul>
+          </div>
+
+          <div class="side-menu">
+            <h4>TAYLOR BROWN</h4>
+            <ul>
+                <li><a href="#"><img src="images/icon.png" width="30px" alt="Your account">taylormarie@mail-post.com</a></li>
+                <li><a href="#"><i class="fa fa-gear"></i>My account setings</a></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i>Logout</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </section>
+  </nav>
+
+
+<!-- HIDDEN TOP NAV -->
+  <nav>
+    <section class="dash-menu">
+      <div class="container">
+
+          <div class="one-fifth menu-block-blocmarc">
+            <ul>
+              <li><a href="index.html"><img src="images/site-logo.svg" width="110px" alt="Scribble"></a></li>
+              <li><a href="index.html"><i class="fa fa-bars"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="one-fifth menu-block-items">
+            <ul>
+                <li><a href="#"><i class="fa fa-th"></i>All items</a></li>
+                <li><a href="#"><i class="fa fa-pencil"></i>Notes</a></li>
+                <li><a href="#"><i class="fa fa-check"></i>Checklists</a></li>
+                <li><a href="#"><i class="fa fa-image"></i>Images</a></li>
+                <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth menu-block-boxes">
+            <ul>
+                <li><a href="#"><i class="fa fa-th"></i>All boxes</a></li>
+                <li><a href="#"><img class="blocmarc-box" src="images/logo.png">Inspiration</a></li>
+                <li><a href="#"><img class="blocmarc-box"  src="images/logo.png">Work ideas</a></li>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth menu-block-organize">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i>Favorites</a></li>
+                <li><a href="#"><i class="fa fa-tag"></i>Tags</a></li>
+                <li><a href="#"><i class="fa fa-users"></i>Collaborators</a></li>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth menu-block-acct">
+            <ul>
+                <li><a href="#" id="email"><img src="images/icon.png" width="30px" alt="Your account">taylormarie@mail-post.com</a></li>
+                <li><a href="#"><i class="fa fa-gear"></i>My account setings</a></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i>Logout</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </section>
+  </nav>
+
+
+<!-- MAIN TOP NAV -->
+  <nav>
+    <section class="dash-nav">
+      <div class="container">
+
+          <div class="one-fifth items-block" id="logo-block">
+            <ul>
+              <li><a href="index.html"><img src="images/asset9.svg" width="110px" alt="Scribble"></a></li>
+              <li><a id="hamburger" href="#"><i class="fa fa-bars"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="one-fifth items-block">
+            <ul><a id="menu-trigger-items" href="#">
+              <li>ITEMS</li></a>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth items-block">
+            <ul><a id="menu-trigger-boxes" href="#">
+              <li>BOXES</li></a>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth items-block">
+            <ul><a id="menu-trigger-organize" href="#">
+              <li>ORGANIZE</li></a>
+            </ul>
+          </div>
+
+
+          <div class="one-fifth items-block">
+            <ul><a id="menu-trigger-acct" href="#">
+              <li>TAYLOR BROWN</li></a>
+            </ul>
+          </div>
+
+      </div>
+    </section>
+  </nav>
+
+  <main role="main">
+    <!-- CONTENT -->
+    <section class="content">
+
+      <!-- HEADER -->
+      <div class="container">
+          <div class="header">
+
+            <div class="one-third">
+              <h1>All items</h1>
+            </div>
+
+            <div class="one-third" id="mobile-add">
+              <ul class="menu">
+              <li>
+                <a href="#" class="btn-add"><img src="images/add-button.svg" height="69px" alt="Add content"/></a>
+                <ul>
+                  <li><a href="#"><i class="fa fa-pencil"></i>Notes</a></li>
+                  <li><a href="#"><i class="fa fa-check"></i>Checklists</a></li>
+                  <li><a href="#"><i class="fa fa-image"></i>Images</a></li>
+                  <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+
+            <div class="one-third">
+              <ul class="menu">
+                <li class="btn-browser">
+                  <a href="#" class="btn">+ Add</a>
+                  <ul>
+                    <li><a href="#">Notes</a></li>
+                    <li><a href="#">Checklists</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Links</a></li>
+                    </ul>
+                </li>
+              </ul>
+              <!-- <ul class="browser-sort">
+                <li class="btn-browser"><a href="#" class="btn">Sort <i class="fa fa-sort-asc"></i></a></li>
+              </ul> -->
+            </div>
+
+          </div>
+
+      <!-- BOXES -->
+      <div class="content-item">
+         <div class="item-box">
+            <a href="#"><h4>Workshop thoughts</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consecte</p></a>
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+          <img src="https://static.pexels.com/photos/160273/pexels-photo-160273.jpeg">
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+            <a href="#"><h4>Packing list</h4>
+            <ul>
+            <li><i class="fa fa-square-o"></i>  Lorem ipsum dolor sit am</li>
+            <li><i class="fa fa-square-o"></i>  Consectetur adipiscing elit</li>
+            <li><i class="fa fa-square-o"></i>  Ut labore et dolore magna</li>
+            <li><i class="fa fa-square-o"></i>  Veniam, quis nostrud exercit</li>
+            <li><i class="fa fa-square-o"></i>  Do eiusmod tempor incidi</li>
+            <li><i class="fa fa-square-o"></i>  Lorem ipsum dolor sit am</li>
+            <li><i class="fa fa-square-o"></i>  Aliqua. Ut enim ad minim</li>
+            </ul></a>
+         </div>
+       </div>
+
+
+       <div class="content-item">
+         <div class="item-box">
+          <img src="https://static.pexels.com/photos/376464/pexels-photo-376464.jpeg">
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+          <a href="#"><img class="favicon" src="https://www.yourkarma.com/favicon.ico">
+          <h5>yourkarma.com</h5>
+          <p class="link-text">Karma Go lets you take WiFi everywhere. Pay-as-you-go for data that never expires. No contracts or monthly fees. With nationwide coverage on LTE, stay connected to the internet with all of your devices, seamlessly.</p></a>
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+          <img src="https://static.pexels.com/photos/312105/pexels-photo-312105.jpeg">
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+          <a href="#"><img class="favicon" src="https://www.airbnb.com/favicon.ico">
+          <h5>airbnb.com</h5>
+          <p class="link-text">Rent unique acommodations from local hosts in 190+ countries. Feel at home anywhere you go in the world with Airbnb.</p></a>
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+          <img src="https://static.pexels.com/photos/247646/pexels-photo-247646.jpeg">
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+            <img src="https://images.pexels.com/photos/713644/pexels-photo-713644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350">
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+     <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+       <div class="content-item">
+         <div class="item-box">
+
+         </div>
+       </div>
+
+    </div>
+    </section>
+  </main>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+    $(".menu").dropit();
+
+    $( "#menu-trigger-items" ).click(function() {
+      $(".menu-block-items").toggleClass("open", 200);
+      $(".menu-block-boxes").removeClass("open", 200);
+      $(".menu-block-organize").removeClass("open", 200);
+      $(".menu-block-acct").removeClass("open", 200);
+    });
+
+    $( "#menu-trigger-boxes" ).click(function() {
+      $(".menu-block-boxes").toggleClass("open", 200);
+      $(".menu-block-items").removeClass("open", 200);
+      $(".menu-block-organize").removeClass("open", 200);
+      $(".menu-block-acct").removeClass("open", 200);
+    });
+
+    $( "#menu-trigger-organize" ).click(function() {
+      $(".menu-block-organize").toggleClass("open", 200);
+      $(".menu-block-boxes").removeClass("open", 200);
+      $(".menu-block-items").removeClass("open", 200);
+      $(".menu-block-acct").removeClass("open", 200);
+    });
+
+    $( "#menu-trigger-acct" ).click(function() {
+      $(".menu-block-acct").toggleClass("open", 200);
+      $(".menu-block-boxes").removeClass("open", 200);
+      $(".menu-block-organize").removeClass("open", 200);
+      $(".menu-block-items").removeClass("open", 200);
+    });
+
+    $( "main" ).click(function() {
+      $(".menu-block-boxes").removeClass("open", 200);
+      $(".menu-block-organize").removeClass("open", 200);
+      $(".menu-block-items").removeClass("open", 200);
+      $(".menu-block-acct").removeClass("open", 200);
+
+    });
+
+    $( "#hamburger" ).click(function() {
+      $(".side-nav").toggleClass("open", 200);
+    });
+
+
+    //ANIMATION
+
+    var boxesArray = document.getElementsByClassName('content-item');
+
+      var animateBoxes = function(boxes) {
+           for (var i = 0; i < boxes.length; i++){
+           var revealBox = function() {
+               boxes[i].style.opacity = 1;
+               boxes[i].style.transform = "scaleY(1) translateY(0)";
+               boxes[i].style.msTransform = "scaleY(1) translateY(0)";
+               boxes[i].style.WebkitTransform = "scaleY(1) translateY(0)";
+           };
+          revealBox();
+      }
+      };
+
+      window.onload = function() {
+        animateBoxes(boxesArray);
+      }
+
+
+  </script>
+
+</body>
+</html>
