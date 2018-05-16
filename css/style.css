@@ -327,7 +327,7 @@ html, body{
   /* PRICING */
    .pricing {
      background: #5E686B url("../images/Background.png") top center no-repeat;
-     background: url(../images/background.png) top center no-repeat, linear-gradient(206deg, #38a1dd 0%, #2dc4bb 94%);
+     background: url(../images/Background.png) top center no-repeat, linear-gradient(206deg, #38a1dd 0%, #2dc4bb 94%);
      background-size:cover;
      text-align: center;
      padding:4em 0;
